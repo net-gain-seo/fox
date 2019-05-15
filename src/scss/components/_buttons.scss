@@ -1,0 +1,46 @@
+/* This stylesheet should be used only for button styles on your site unless you are strictly using bootstraps .btn styles */
+// You should only have to ever use .button unless you specifically need a secondary button colour. Main button styles are preset for coloured backgrounds.
+
+button, .button {
+    /* Styles for all buttons here */
+    background: $primary;
+    color: #FFF;
+    &:hover {
+        /* Default hover styles for all buttons */
+        background: $secondary;
+        color: #FFF;
+    }
+
+    &.secondaryButton {
+        /* Styles for secondary buttons here */
+        background: $secondary;
+        color: #FFF;
+        &:hover {
+            /* Hover styles for secondary buttons */
+            background: $primary;
+            color: #FFF;
+        }
+    }
+}
+
+// Sets the main button styles on a container with primary background colour
+.primaryBg {
+    button, .button {
+        background: $secondary;
+        &:hover {
+            background: #FFF;
+            color: #000;
+        }
+    }
+}
+
+// Sets the main button styles on a container with secondary background colour
+.secondaryBg {
+    button, .button {
+        background: $primary;
+        &:hover {
+            background: #FFF;
+            color: #000;
+        }
+    }
+}

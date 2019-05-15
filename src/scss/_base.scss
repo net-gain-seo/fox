@@ -1,0 +1,100 @@
+/* This stylesheet is for any custom classes you create in your child theme. See below for examples */
+
+/**
+****
+*****
+****** TEXT COLORS ******
+*****
+****
+***
+*/
+.primaryText {
+    color: $primary;
+}
+
+.secondaryText {
+    color: $secondary;
+}
+
+.tertiaryText {
+    color: $tertiary;
+}
+/**
+****
+*****
+****** END TEXT COLORS ******
+*****
+****
+***
+*/
+
+
+
+/**
+****
+*****
+****** BACKGROUND COLOURS ******
+*****
+****
+***
+*/
+.primaryBg {
+    background: $primary;
+}
+
+.secondaryBg {
+    background: $secondary;
+}
+
+.tertiaryBg {
+    background: $tertiary;
+}
+
+.lightGreyBg {
+    background: $lightGrey;
+}
+
+.darkGreyBg {
+    background: $darkGrey;
+}
+/**
+****
+*****
+****** END BACKGROUND COLORS ******
+*****
+****
+***
+*/
+
+
+/**
+****
+*****
+****** BOX SHADOWS ******
+*****
+****
+***
+*/
+.box-shadow-bottom {
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.box-shadow-top {
+    box-shadow: 0 -8px 6px -6px #999;
+}
+
+.box-shadow-top-bottom {
+    box-shadow: 0 8px 6px -6px #999, 0 -8px 6px -6px #999;
+}
+
+.box-shadow-full {
+    box-shadow: 0 0 8px 0 #999;
+}
+/**
+****
+*****
+****** END BOX SHADOWS ******
+*****
+****
+***
+*/

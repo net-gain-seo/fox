@@ -1,0 +1,29 @@
+/* This stylesheet should contain only styles for the header elements including the navigation menus */
+
+
+
+
+body.sticky-header{
+	.site-header{
+		position: fixed;
+		z-index: 100;
+		width: 100%;
+		background: #ffffff;
+	}
+
+	.phone{
+		display: none;
+	}
+
+	.custom-logo-link{
+		display: none;
+	}
+
+	.stickylogo{
+		display: block;
+	}
+
+	.slider-wrap{
+		margin-top: 100px;
+	}
+}
